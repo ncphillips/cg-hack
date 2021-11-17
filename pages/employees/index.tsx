@@ -23,7 +23,7 @@ export default function Employees() {
             { firstName: "Jordan", lastName: "Bedwell" },
           ].map(({ firstName, lastName }) => {
             return (
-              <tr>
+              <tr key={firstName}>
                 <Cell>{firstName}</Cell>
                 <Cell>{lastName}</Cell>
               </tr>

@@ -66,7 +66,7 @@ const Sidebar = () => {
     <ContentBlock>
       <Stack>
         {menuItems.map((item) => (
-          <Link href={item.href} passHref>
+          <Link key={item.href} href={item.href} passHref>
             <ContentBlock as="a" p="4">
               <Stack>{item.label}</Stack>
             </ContentBlock>
