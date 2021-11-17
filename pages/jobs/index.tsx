@@ -2,10 +2,10 @@ import { Heading } from "@careguide/typography";
 import React from "react";
 import Stack from "@careguide/stack";
 
-export default function Home() {
+export default function Jobs() {
   return (
     <Stack>
-      <Heading as="h1">Welcome to your dashboard, E-Xuan!</Heading>
+      <Heading as="h1">Jobs</Heading>
     </Stack>
   );
 }
